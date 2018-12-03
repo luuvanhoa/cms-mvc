@@ -1,0 +1,39 @@
+.bg-black{
+	background-color: #222222 !important;
+	min-height: 670px;
+}
+.form-box{
+	width: 380px;
+	margin: 125px auto 0 auto;
+}
+img.image-avatar{
+	width: 60px;
+}
+
+div.content-textarea{
+	width: 70%;
+	float: left;
+}
+
+div.content-attributes{
+	width: 30%;
+	float: left;
+}
+li.item-title{
+	border-bottom: none !important;
+}
+
+li.item-attributes{
+	border-top: none !important;
+}
+
+.btn-move-node:hover {
+	cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.delete-item{
+	color: #979797;
+}

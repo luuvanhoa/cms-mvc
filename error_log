@@ -1,0 +1,1466 @@
+[01-Jun-2018 18:26:09 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/user/form.php on line 31
+[01-Jun-2018 18:26:26 Asia/Ho_Chi_Minh] PHP Notice:  Array to string conversion in /home/duyluong/public_html/cms/libs/Helper.php on line 62
+[01-Jun-2018 18:26:32 Asia/Ho_Chi_Minh] PHP Notice:  Array to string conversion in /home/duyluong/public_html/cms/libs/Helper.php on line 62
+[01-Jun-2018 18:30:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: cols in /home/duyluong/public_html/cms/libs/Model.php on line 76
+[01-Jun-2018 18:30:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: vals in /home/duyluong/public_html/cms/libs/Model.php on line 77
+[01-Jun-2018 18:39:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 18:39:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 18:39:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 18:39:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 18:39:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 18:39:02 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:33:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[01-Jun-2018 21:36:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:36:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:36:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:36:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:36:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:36:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:40:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: cols in /home/duyluong/public_html/cms/libs/Model.php on line 76
+[01-Jun-2018 21:40:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: vals in /home/duyluong/public_html/cms/libs/Model.php on line 77
+[01-Jun-2018 21:40:46 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.avatar' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:148
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(148): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/UserModel.php(31): Model->fetchAll('SELECT `u`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/UserController.php(16): UserModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): UserController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 148
+[01-Jun-2018 21:40:53 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.avatar' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:148
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(148): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/UserModel.php(31): Model->fetchAll('SELECT `u`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/UserController.php(16): UserModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): UserController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 148
+[01-Jun-2018 21:42:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:42:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:42:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:42:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:42:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:42:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:42:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:42:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:42:49 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:42:49 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:42:49 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:42:49 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:42:49 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:42:49 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:42:49 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:42:49 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:43:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: cols in /home/duyluong/public_html/cms/libs/Model.php on line 77
+[01-Jun-2018 21:43:52 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: vals in /home/duyluong/public_html/cms/libs/Model.php on line 78
+[01-Jun-2018 21:45:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:45:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:45:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:45:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:45:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:45:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:45:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:45:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:45:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:45:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:48:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:48:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:48:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:48:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:48:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:48:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:48:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:48:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:48:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:48:33 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:49:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:49:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:49:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:49:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:49:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:49:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 21:49:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 21:49:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:08:53 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected ')' in /home/duyluong/public_html/cms/application/module/admin/views/user/form.php on line 40
+[01-Jun-2018 22:11:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:11:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:11:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:11:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:11:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:11:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:11:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:11:34 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:11:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fileName in /home/duyluong/public_html/cms/libs/extends/Upload.php on line 18
+[01-Jun-2018 22:12:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:12:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:12:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:12:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:12:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:12:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:12:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:12:42 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:13:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:13:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:13:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:13:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:13:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:13:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:13:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:13:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:13:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:13:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:13:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:13:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:13:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:13:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:13:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:13:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:13:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:13:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:13:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:13:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:13:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:13:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:13:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:13:57 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:14:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:14:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:14:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:14:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:14:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:14:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:14:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:14:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:20:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:20:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:20:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:20:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:20:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:20:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:20:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:20:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:20:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:20:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:20:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:20:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:20:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:20:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:20:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:20:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:20:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:20:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:20:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:20:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:21:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:21:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:35 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:38 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:22:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: fulname in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 27
+[01-Jun-2018 22:22:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: groupACP in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 34
+[01-Jun-2018 22:34:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[01-Jun-2018 22:40:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: emai in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 15
+[01-Jun-2018 22:40:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: emai in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 15
+[01-Jun-2018 22:40:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: emai in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 15
+[01-Jun-2018 22:40:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: emai in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 15
+[01-Jun-2018 22:40:17 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: emai in /home/duyluong/public_html/cms/application/module/admin/views/user/index.php on line 15
+[01-Jun-2018 23:02:51 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/duyluong/public_html/cms/application/module/admin/models/UserModel.php on line 47
+[01-Jun-2018 23:28:12 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[02-Jun-2018 00:53:01 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[02-Jun-2018 00:56:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[02-Jun-2018 00:57:24 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 0 in /home/duyluong/public_html/cms/libs/Model.php on line 117
+[02-Jun-2018 00:57:24 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: 1 in /home/duyluong/public_html/cms/libs/Model.php on line 117
+[02-Jun-2018 00:57:24 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '' in 'where clause'' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/libs/Model.php(97): Model->execute('UPDATE `group` ...')
+#2 /home/duyluong/public_html/cms/application/module/admin/models/GroupModel.php(121): Model->update(Array, Array)
+#3 /home/duyluong/public_html/cms/application/module/admin/controllers/GroupController.php(41): GroupModel->saveItem(Array, Array)
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): GroupController->formAction()
+#5 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#6 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#7 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[02-Jun-2018 01:11:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'duyluong_projectPDO.article' doesn't exist' in /home/duyluong/public_html/cms/libs/Model.php:150
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(150): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(53): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 150
+[02-Jun-2018 10:25:45 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[02-Jun-2018 10:26:28 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'duyluong_projectPDO.article' doesn't exist' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(74): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[02-Jun-2018 10:26:49 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'duyluong_projectPDO.article' doesn't exist' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(74): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[02-Jun-2018 16:51:16 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[02-Jun-2018 18:37:21 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[02-Jun-2018 22:00:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[03-Jun-2018 09:23:13 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[03-Jun-2018 10:06:44 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: avatar in /home/duyluong/public_html/cms/public/template/admin/main/html/nav-right.php on line 5
+[03-Jun-2018 10:07:53 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[03-Jun-2018 10:18:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 2
+[03-Jun-2018 10:18:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 3
+[03-Jun-2018 10:18:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 4
+[03-Jun-2018 10:18:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 5
+[03-Jun-2018 10:18:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 3
+[03-Jun-2018 10:18:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 5
+[03-Jun-2018 10:18:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 6
+[03-Jun-2018 10:18:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 7
+[03-Jun-2018 10:18:46 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 8
+[03-Jun-2018 10:18:58 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[03-Jun-2018 10:19:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 3
+[03-Jun-2018 10:19:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 5
+[03-Jun-2018 10:19:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 6
+[03-Jun-2018 10:19:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 7
+[03-Jun-2018 10:19:00 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 8
+[03-Jun-2018 10:19:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 3
+[03-Jun-2018 10:19:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 5
+[03-Jun-2018 10:19:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 6
+[03-Jun-2018 10:19:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 7
+[03-Jun-2018 10:19:10 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 8
+[03-Jun-2018 10:22:55 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 3
+[03-Jun-2018 10:22:55 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 5
+[03-Jun-2018 10:22:55 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 6
+[03-Jun-2018 10:22:55 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 7
+[03-Jun-2018 10:22:55 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 8
+[03-Jun-2018 10:23:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 3
+[03-Jun-2018 10:23:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 5
+[03-Jun-2018 10:23:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 6
+[03-Jun-2018 10:23:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 7
+[03-Jun-2018 10:23:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/index/profile.php on line 8
+[03-Jun-2018 10:29:09 Asia/Ho_Chi_Minh] PHP Warning:  Illegal string offset 'name' in /home/duyluong/public_html/cms/libs/Validate.php on line 239
+[03-Jun-2018 10:29:09 Asia/Ho_Chi_Minh] PHP Warning:  Illegal string offset 'size' in /home/duyluong/public_html/cms/libs/Validate.php on line 240
+[03-Jun-2018 10:29:09 Asia/Ho_Chi_Minh] PHP Warning:  Illegal string offset 'name' in /home/duyluong/public_html/cms/libs/Validate.php on line 244
+[03-Jun-2018 10:30:11 Asia/Ho_Chi_Minh] PHP Warning:  Illegal string offset 'name' in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 53
+[03-Jun-2018 10:30:11 Asia/Ho_Chi_Minh] PHP Notice:  Uninitialized string offset: 0 in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 53
+[03-Jun-2018 10:30:36 Asia/Ho_Chi_Minh] PHP Warning:  Illegal string offset 'name' in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 53
+[03-Jun-2018 10:30:36 Asia/Ho_Chi_Minh] PHP Notice:  Uninitialized string offset: 0 in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 53
+[03-Jun-2018 10:30:38 Asia/Ho_Chi_Minh] PHP Warning:  Illegal string offset 'name' in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 53
+[03-Jun-2018 10:30:38 Asia/Ho_Chi_Minh] PHP Notice:  Uninitialized string offset: 0 in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 53
+[03-Jun-2018 10:30:39 Asia/Ho_Chi_Minh] PHP Warning:  Illegal string offset 'name' in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 53
+[03-Jun-2018 10:30:39 Asia/Ho_Chi_Minh] PHP Notice:  Uninitialized string offset: 0 in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 53
+[03-Jun-2018 10:36:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: avatar in /home/duyluong/public_html/cms/application/module/admin/controllers/IndexController.php on line 67
+[03-Jun-2018 10:36:37 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: avatar in /home/duyluong/public_html/cms/application/module/admin/controllers/IndexController.php on line 67
+[03-Jun-2018 10:44:58 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: uploadObj in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 58
+[03-Jun-2018 10:44:58 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to a member function removeFile() on null in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 58
+[03-Jun-2018 10:54:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: imgAvatar in /home/duyluong/public_html/cms/public/template/admin/main/html/nav-right.php on line 27
+[03-Jun-2018 10:54:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: imgAvatar in /home/duyluong/public_html/cms/public/template/admin/main/html/sidebar.php on line 59
+[03-Jun-2018 10:59:22 Asia/Ho_Chi_Minh] PHP Warning:  PDO::prepare() expects parameter 1 to be string, array given in /home/duyluong/public_html/cms/libs/Model.php on line 175
+[03-Jun-2018 10:59:22 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to a member function execute() on boolean in /home/duyluong/public_html/cms/libs/Model.php on line 176
+[03-Jun-2018 11:00:20 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'usernam' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:176
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(176): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/public/template/admin/main/html/nav-right.php(8): Model->fetchRow('SELECT `id`, `u...')
+#2 /home/duyluong/public_html/cms/public/template/admin/main/index.php(14): include_once('/home/duyluong/...')
+#3 /home/duyluong/public_html/cms/libs/View.php(23): require_once('/home/duyluong/...')
+#4 /home/duyluong/public_html/cms/application/module/admin/controllers/IndexController.php(84): View->render('index/profile')
+#5 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): IndexController->profileAction()
+#6 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#7 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#8 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 176
+[03-Jun-2018 11:15:50 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[03-Jun-2018 11:31:05 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[03-Jun-2018 13:23:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[03-Jun-2018 13:23:55 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'duyluong_projectPDO.product' doesn't exist' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php(57): Model->fetchAll('SELECT `p`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ProductController.php(16): ProductModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ProductController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[03-Jun-2018 15:10:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[03-Jun-2018 16:49:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[04-Jun-2018 13:26:18 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[04-Jun-2018 15:42:55 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[04-Jun-2018 17:02:06 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[04-Jun-2018 03:13:37 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'Are' (T_STRING) in /home/duyluong/public_html/cms/libs/Helper.php on line 10
+[04-Jun-2018 06:44:32 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[04-Jun-2018 06:54:34 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[04-Jun-2018 08:45:43 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[04-Jun-2018 09:31:28 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[04-Jun-2018 17:33:54 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[04-Jun-2018 19:29:03 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[04-Jun-2018 20:29:13 America/Los_Angeles] PHP Notice:  Undefined index: username in /home/duyluong/public_html/cms/application/module/admin/controllers/IndexController.php on line 22
+[04-Jun-2018 20:29:13 America/Los_Angeles] PHP Notice:  Undefined index: password in /home/duyluong/public_html/cms/application/module/admin/controllers/IndexController.php on line 23
+[04-Jun-2018 20:29:13 America/Los_Angeles] PHP Notice:  Undefined index: username in /home/duyluong/public_html/cms/libs/Validate.php on line 55
+[04-Jun-2018 20:29:53 America/Los_Angeles] PHP Notice:  Undefined index: username in /home/duyluong/public_html/cms/libs/Validate.php on line 55
+[04-Jun-2018 20:30:50 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[04-Jun-2018 21:01:00 America/Los_Angeles] PHP Notice:  Undefined variable: rowCategory in /home/duyluong/public_html/cms/application/module/admin/views/article/form.php on line 48
+[04-Jun-2018 21:06:02 America/Los_Angeles] PHP Notice:  Undefined variable: rowCategory in /home/duyluong/public_html/cms/application/module/admin/views/article/form.php on line 48
+[04-Jun-2018 21:32:13 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[04-Jun-2018 21:39:51 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/duyluong/public_html/cms/application/module/admin/views/article/form.php on line 41
+[04-Jun-2018 21:40:12 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '}' in /home/duyluong/public_html/cms/libs/Helper.php on line 98
+[04-Jun-2018 21:44:22 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '500' (T_LNUMBER) in /home/duyluong/public_html/cms/libs/Helper.php on line 71
+[04-Jun-2018 21:48:20 America/Los_Angeles] PHP Notice:  Undefined variable: dataPublish in /home/duyluong/public_html/cms/application/module/admin/views/article/form.php on line 29
+[04-Jun-2018 22:40:20 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[04-Jun-2018 23:28:45 America/Los_Angeles] PHP Notice:  Undefined variable: rowStatus in /home/duyluong/public_html/cms/application/module/admin/views/article/form.php on line 52
+[04-Jun-2018 23:28:45 America/Los_Angeles] PHP Notice:  Undefined variable: rowOrdering in /home/duyluong/public_html/cms/application/module/admin/views/article/form.php on line 52
+[05-Jun-2018 02:32:15 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 07:28:04 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 07:43:50 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 08:24:10 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 08:26:50 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 08:34:31 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(74): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 08:34:34 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(74): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 08:34:45 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(74): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 09:08:03 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 09:08:07 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(74): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 09:08:24 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(74): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 09:10:55 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 09:10:57 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(74): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 09:52:33 America/Los_Angeles] PHP Notice:  Undefined index: name in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 39
+[05-Jun-2018 09:53:09 America/Los_Angeles] PHP Notice:  Undefined index: keyword in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 39
+[05-Jun-2018 09:53:33 America/Los_Angeles] PHP Notice:  Undefined index: keyword in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 39
+[05-Jun-2018 09:53:34 America/Los_Angeles] PHP Notice:  Undefined index: keyword in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 39
+[05-Jun-2018 09:53:42 America/Los_Angeles] PHP Notice:  Undefined index: keyword in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 39
+[05-Jun-2018 09:54:04 America/Los_Angeles] PHP Notice:  Undefined index: keyword in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 39
+[05-Jun-2018 09:54:09 America/Los_Angeles] PHP Notice:  Undefined index: keyword in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 39
+[05-Jun-2018 10:01:05 America/Los_Angeles] PHP Notice:  Undefined index: keyword in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 39
+[05-Jun-2018 10:12:19 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 10:12:26 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(85): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 10:14:50 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 10:14:58 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(85): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 10:16:42 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(85): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 10:16:43 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(85): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 10:16:44 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(85): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 10:16:45 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(85): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 10:24:57 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(85): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 11:12:55 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 11:12:57 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(85): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 11:17:50 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(85): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 11:17:52 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(85): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 12:01:29 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'value' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(41): Model->fetchAll('SELECT `id`,`va...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(85): ArticleModel->getItem(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->ajaxKeywordAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 12:13:35 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 12:13:39 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(85): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 13:12:21 America/Los_Angeles] PHP Notice:  Undefined property: View::$listKeyword in /home/duyluong/public_html/cms/application/module/admin/views/article/form.php on line 63
+[05-Jun-2018 13:13:59 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 13:14:01 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(88): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 17:25:59 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 17:26:09 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(88): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 19:21:44 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 20:33:38 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[05-Jun-2018 20:33:41 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(88): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[05-Jun-2018 23:02:16 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[06-Jun-2018 04:46:45 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[06-Jun-2018 04:46:47 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.id' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(89): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 04:46:51 America/Los_Angeles] PHP Notice:  Undefined index: ta_name in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 44
+[06-Jun-2018 05:29:53 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[06-Jun-2018 05:29:56 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.id' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(89): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 05:36:31 America/Los_Angeles] PHP Notice:  Undefined variable: result in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 47
+[06-Jun-2018 05:36:49 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(54): Model->fetchAll('SELECT `author_...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(26): ArticleModel->getItem(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->formAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 06:31:32 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[06-Jun-2018 06:31:39 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.id' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 06:40:38 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.id' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 06:40:40 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.id' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 07:23:41 America/Los_Angeles] PHP Notice:  Undefined variable: inputOrdering in /home/duyluong/public_html/cms/application/module/admin/views/user/form.php on line 47
+[06-Jun-2018 07:23:55 America/Los_Angeles] PHP Notice:  Undefined variable: inputOrdering in /home/duyluong/public_html/cms/application/module/admin/views/user/form.php on line 47
+[06-Jun-2018 07:24:27 America/Los_Angeles] PHP Notice:  Undefined variable: inputOrdering in /home/duyluong/public_html/cms/application/module/admin/views/user/form.php on line 47
+[06-Jun-2018 07:31:50 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[06-Jun-2018 07:32:56 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/duyluong/public_html/cms/application/module/admin/views/user/form.php on line 23
+[06-Jun-2018 08:46:15 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[06-Jun-2018 09:28:58 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 09:34:15 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[06-Jun-2018 09:49:19 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[06-Jun-2018 09:49:23 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ordering' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/TagModel.php(22): Model->fetchAll('SELECT `id`, `n...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/TagController.php(15): TagModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): TagController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 09:49:35 America/Los_Angeles] PHP Notice:  Undefined index: tag in /home/duyluong/public_html/cms/public/template/admin/main/html/breadcrumb.php on line 28
+[06-Jun-2018 10:06:37 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 10:06:38 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 10:09:44 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 10:17:37 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 10:38:22 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[06-Jun-2018 10:38:25 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 10:38:30 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 10:38:47 America/Los_Angeles] PHP Fatal error:  Call to a member function listItem() on null in /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php on line 16
+[06-Jun-2018 11:12:52 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: author in /home/duyluong/public_html/cms/public/template/admin/main/html/breadcrumb.php on line 29
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: username in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 14
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: email in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 15
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: fullname in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 16
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: group_name in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 17
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 19
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 20
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 21
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 22
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: username in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 14
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: email in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 15
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: fullname in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 16
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: group_name in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 17
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 19
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 20
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 21
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 22
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: username in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 14
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: email in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 15
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: fullname in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 16
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: group_name in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 17
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 19
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 20
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 21
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 22
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: username in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 14
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: email in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 15
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: fullname in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 16
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: group_name in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 17
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 19
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 20
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 21
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 22
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: username in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 14
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: email in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 15
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: fullname in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 16
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: group_name in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 17
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 19
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 20
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 21
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 22
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: username in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 14
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: email in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 15
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: fullname in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 16
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: group_name in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 17
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 19
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 20
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 21
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 22
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: username in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 14
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: email in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 15
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: fullname in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 16
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: group_name in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 17
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 19
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 20
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 21
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 22
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: username in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 14
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: email in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 15
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: fullname in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 16
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: group_name in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 17
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 19
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 20
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 21
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 22
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: username in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 14
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: email in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 15
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: fullname in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 16
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: group_name in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 17
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 19
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 20
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 21
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 22
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: username in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 14
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: email in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 15
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: fullname in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 16
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: group_name in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 17
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 19
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: created_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 20
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 21
+[06-Jun-2018 11:15:23 America/Los_Angeles] PHP Notice:  Undefined index: modified_by in /home/duyluong/public_html/cms/application/module/admin/views/author/index.php on line 22
+[06-Jun-2018 11:20:04 America/Los_Angeles] PHP Notice:  Undefined index: author in /home/duyluong/public_html/cms/public/template/admin/main/html/breadcrumb.php on line 29
+[06-Jun-2018 11:21:10 America/Los_Angeles] PHP Fatal error:  Call to undefined method AuthorModel::itemInSelectbox() in /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php on line 23
+[06-Jun-2018 11:21:37 America/Los_Angeles] PHP Fatal error:  Call to undefined method AuthorModel::itemInSelectbox() in /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php on line 23
+[06-Jun-2018 11:21:50 America/Los_Angeles] PHP Notice:  Undefined variable: selectGroup in /home/duyluong/public_html/cms/application/module/admin/views/author/form.php on line 38
+[06-Jun-2018 11:22:36 America/Los_Angeles] PHP Notice:  Undefined variable: rowGroup in /home/duyluong/public_html/cms/application/module/admin/views/author/form.php on line 46
+[06-Jun-2018 11:24:34 America/Los_Angeles] PHP Notice:  Undefined variable: queryUserName in /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php on line 35
+[06-Jun-2018 11:25:49 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'modified' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/AuthorModel.php(119): Model->execute('UPDATE `author`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php(75): AuthorModel->ordering(Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): AuthorController->orderingAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[06-Jun-2018 11:25:59 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'modified' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/AuthorModel.php(28): Model->execute('UPDATE `author`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php(57): AuthorModel->changeStatus(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): AuthorController->ajaxStatusAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[06-Jun-2018 11:26:01 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'modified' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/AuthorModel.php(28): Model->execute('UPDATE `author`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php(57): AuthorModel->changeStatus(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): AuthorController->ajaxStatusAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[06-Jun-2018 11:26:01 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'modified' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/AuthorModel.php(28): Model->execute('UPDATE `author`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php(57): AuthorModel->changeStatus(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): AuthorController->ajaxStatusAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[06-Jun-2018 11:34:21 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/libs/Model.php(60): Model->execute('INSERT INTO `au...')
+#2 /home/duyluong/public_html/cms/application/module/admin/models/AuthorModel.php(85): Model->insert(Array)
+#3 /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php(44): AuthorModel->saveItem(Array, Array)
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): AuthorController->formAction()
+#5 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#6 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#7 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[06-Jun-2018 11:37:49 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/libs/Model.php(60): Model->execute('INSERT INTO `au...')
+#2 /home/duyluong/public_html/cms/application/module/admin/models/AuthorModel.php(85): Model->insert(Array)
+#3 /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php(44): AuthorModel->saveItem(Array, Array)
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): AuthorController->formAction()
+#5 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#6 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#7 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[06-Jun-2018 11:38:32 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/libs/Model.php(60): Model->execute('INSERT INTO `au...')
+#2 /home/duyluong/public_html/cms/application/module/admin/models/AuthorModel.php(85): Model->insert(Array)
+#3 /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php(44): AuthorModel->saveItem(Array, Array)
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): AuthorController->formAction()
+#5 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#6 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#7 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[06-Jun-2018 11:40:43 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/libs/Model.php(60): Model->execute('INSERT INTO `au...')
+#2 /home/duyluong/public_html/cms/application/module/admin/models/AuthorModel.php(85): Model->insert(Array)
+#3 /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php(43): AuthorModel->saveItem(Array, Array)
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): AuthorController->formAction()
+#5 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#6 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#7 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[06-Jun-2018 11:41:47 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/libs/Model.php(60): Model->execute('INSERT INTO `au...')
+#2 /home/duyluong/public_html/cms/application/module/admin/models/AuthorModel.php(85): Model->insert(Array)
+#3 /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php(43): AuthorModel->saveItem(Array, Array)
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): AuthorController->formAction()
+#5 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#6 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#7 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[06-Jun-2018 11:42:25 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[06-Jun-2018 11:42:46 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 11:42:52 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 11:45:44 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/libs/Model.php(60): Model->execute('INSERT INTO `au...')
+#2 /home/duyluong/public_html/cms/application/module/admin/models/AuthorModel.php(82): Model->insert(Array)
+#3 /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php(43): AuthorModel->saveItem(Array, Array)
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): AuthorController->formAction()
+#5 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#6 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#7 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[06-Jun-2018 11:46:03 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/libs/Model.php(60): Model->execute('INSERT INTO `au...')
+#2 /home/duyluong/public_html/cms/application/module/admin/models/AuthorModel.php(82): Model->insert(Array)
+#3 /home/duyluong/public_html/cms/application/module/admin/controllers/AuthorController.php(44): AuthorModel->saveItem(Array, Array)
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): AuthorController->formAction()
+#5 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#6 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#7 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[06-Jun-2018 11:54:46 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 20:02:09 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[06-Jun-2018 20:02:13 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 22:34:55 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[06-Jun-2018 22:35:27 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 22:41:15 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 22:49:44 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 22:55:06 America/Los_Angeles] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/duyluong/public_html/cms/libs/Validate.php on line 55
+[06-Jun-2018 22:55:13 America/Los_Angeles] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/duyluong/public_html/cms/libs/Validate.php on line 55
+[06-Jun-2018 23:07:14 America/Los_Angeles] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/duyluong/public_html/cms/application/module/admin/views/article/form.php on line 94
+[06-Jun-2018 23:32:49 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '*' in /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php on line 51
+[06-Jun-2018 23:36:35 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[06-Jun-2018 23:36:38 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[06-Jun-2018 23:36:43 America/Los_Angeles] PHP Warning:  array_values() expects parameter 1 to be array, null given in /home/duyluong/public_html/cms/application/module/admin/views/article/form.php on line 24
+[06-Jun-2018 23:49:11 America/Los_Angeles] PHP Notice:  Undefined index: thumbnail_url in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 154
+[06-Jun-2018 23:51:45 America/Los_Angeles] PHP Notice:  Undefined index: thumbnail in /home/duyluong/public_html/cms/libs/Validate.php on line 103
+[06-Jun-2018 23:51:45 America/Los_Angeles] PHP Warning:  move_uploaded_file(/home/duyluong/public_html/cms/public/files/thumbnail/cuo7t02p.jpg): failed to open stream: No such file or directory in /home/duyluong/public_html/cms/libs/extends/Upload.php on line 12
+[06-Jun-2018 23:51:45 America/Los_Angeles] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpo7iYuH' to '/home/duyluong/public_html/cms/public/files/thumbnail/cuo7t02p.jpg' in /home/duyluong/public_html/cms/libs/extends/Upload.php on line 12
+[06-Jun-2018 23:51:45 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Exception' with message 'Image file not found: /home/duyluong/public_html/cms/public/files/thumbnail/cuo7t02p.jpg' in /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbBase.inc.php(172): ThumbBase->triggerError('Image file not ...')
+#1 /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbBase.inc.php(110): ThumbBase->fileExistsAndReadable()
+#2 /home/duyluong/public_html/cms/public/scripts/PhpThumb/GdThumb.inc.php(96): ThumbBase->__construct('/home/duyluong/...', false)
+#3 /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbLib.inc.php(127): GdThumb->__construct('/home/duyluong/...', Array, false)
+#4 /home/duyluong/public_html/cms/libs/extends/Upload.php(13): PhpThumbFactory::create('/home/duyluong/...')
+#5 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(154): Upload->uploadFile(Array, 'thumbnail', 150, 150)
+#6 /home/duyluong/public_html/cms/a in /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbBase.inc.php on line 193
+[06-Jun-2018 23:52:39 America/Los_Angeles] PHP Warning:  move_uploaded_file(/home/duyluong/public_html/cms/public/files/thumbnail/ir1ze3km.jpg): failed to open stream: No such file or directory in /home/duyluong/public_html/cms/libs/extends/Upload.php on line 12
+[06-Jun-2018 23:52:39 America/Los_Angeles] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpFiVivb' to '/home/duyluong/public_html/cms/public/files/thumbnail/ir1ze3km.jpg' in /home/duyluong/public_html/cms/libs/extends/Upload.php on line 12
+[06-Jun-2018 23:52:39 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Exception' with message 'Image file not found: /home/duyluong/public_html/cms/public/files/thumbnail/ir1ze3km.jpg' in /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbBase.inc.php(172): ThumbBase->triggerError('Image file not ...')
+#1 /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbBase.inc.php(110): ThumbBase->fileExistsAndReadable()
+#2 /home/duyluong/public_html/cms/public/scripts/PhpThumb/GdThumb.inc.php(96): ThumbBase->__construct('/home/duyluong/...', false)
+#3 /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbLib.inc.php(127): GdThumb->__construct('/home/duyluong/...', Array, false)
+#4 /home/duyluong/public_html/cms/libs/extends/Upload.php(13): PhpThumbFactory::create('/home/duyluong/...')
+#5 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(154): Upload->uploadFile(Array, 'thumbnail', 150, 150)
+#6 /home/duyluong/public_html/cms/a in /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbBase.inc.php on line 193
+[06-Jun-2018 23:58:16 America/Los_Angeles] PHP Warning:  move_uploaded_file(/home/duyluong/public_html/cms/public/files/thumbnail/nvyec8rf.jpg): failed to open stream: No such file or directory in /home/duyluong/public_html/cms/libs/extends/Upload.php on line 12
+[06-Jun-2018 23:58:16 America/Los_Angeles] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpbjHMil' to '/home/duyluong/public_html/cms/public/files/thumbnail/nvyec8rf.jpg' in /home/duyluong/public_html/cms/libs/extends/Upload.php on line 12
+[06-Jun-2018 23:58:16 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Exception' with message 'Image file not found: /home/duyluong/public_html/cms/public/files/thumbnail/nvyec8rf.jpg' in /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbBase.inc.php(172): ThumbBase->triggerError('Image file not ...')
+#1 /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbBase.inc.php(110): ThumbBase->fileExistsAndReadable()
+#2 /home/duyluong/public_html/cms/public/scripts/PhpThumb/GdThumb.inc.php(96): ThumbBase->__construct('/home/duyluong/...', false)
+#3 /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbLib.inc.php(127): GdThumb->__construct('/home/duyluong/...', Array, false)
+#4 /home/duyluong/public_html/cms/libs/extends/Upload.php(13): PhpThumbFactory::create('/home/duyluong/...')
+#5 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(155): Upload->uploadFile(Array, 'thumbnail', 150, 150)
+#6 /home/duyluong/public_html/cms/a in /home/duyluong/public_html/cms/public/scripts/PhpThumb/ThumbBase.inc.php on line 193
+[07-Jun-2018 00:09:37 America/Los_Angeles] PHP Notice:  Undefined variable: category_article_id in /home/duyluong/public_html/cms/application/module/admin/views/article/form.php on line 35
+[07-Jun-2018 00:11:11 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.created_at' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(101): Model->fetchAll('SELECT `a`.`id`...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[07-Jun-2018 00:11:15 America/Los_Angeles] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/article/form.php on line 13
+[07-Jun-2018 00:33:42 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 124
+[07-Jun-2018 00:41:15 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 00:41:26 America/Los_Angeles] PHP Notice:  Undefined index: form in /home/duyluong/public_html/cms/application/module/admin/views/article/form.php on line 13
+[07-Jun-2018 00:42:35 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 00:42:49 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 00:57:05 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 00:59:11 America/Los_Angeles] PHP Notice:  A non well formed numeric value encountered in /home/duyluong/public_html/cms/application/module/admin/views/article/form.php on line 22
+[07-Jun-2018 01:02:11 America/Los_Angeles] PHP Notice:  Undefined index: modified_time in /home/duyluong/public_html/cms/application/module/admin/views/article/index.php on line 20
+[07-Jun-2018 01:07:54 America/Los_Angeles] PHP Notice:  Undefined index: categoryName in /home/duyluong/public_html/cms/application/module/admin/views/article/index.php on line 14
+[07-Jun-2018 01:08:08 America/Los_Angeles] PHP Notice:  Undefined index: categoryName in /home/duyluong/public_html/cms/application/module/admin/views/article/index.php on line 14
+[07-Jun-2018 01:09:29 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ar.createion_time' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(68): Model->fetchAll('SELECT `ar`.`id...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[07-Jun-2018 01:09:40 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ar.createtion_time' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(68): Model->fetchAll('SELECT `ar`.`id...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[07-Jun-2018 01:09:50 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'status' in where clause is ambiguous' in /home/duyluong/public_html/cms/libs/Model.php:151
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(151): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(68): Model->fetchAll('SELECT `ar`.`id...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(15): ArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 151
+[07-Jun-2018 03:16:57 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 03:31:33 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 130
+[07-Jun-2018 03:46:40 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 03:46:44 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '}' in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 136
+[07-Jun-2018 03:52:50 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'duyluong_projectPDO.'tag' doesn't exist' in /home/duyluong/public_html/cms/libs/Model.php:178
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(178): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(174): Model->fetchRow('SELECT `id` FRO...')
+#2 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(131): ArticleModel->getIDTag('javascript')
+#3 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(50): ArticleModel->saveItem(Array, Array)
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->formAction()
+#5 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#6 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#7 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 178
+[07-Jun-2018 03:53:57 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'duyluong_projectPDO.'tag' doesn't exist' in /home/duyluong/public_html/cms/libs/Model.php:178
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(178): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(174): Model->fetchRow('SELECT `id` FRO...')
+#2 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(131): ArticleModel->getIDTag('javascript')
+#3 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(50): ArticleModel->saveItem(Array, Array)
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->formAction()
+#5 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#6 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#7 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 178
+[07-Jun-2018 03:54:24 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'duyluong_projectPDO.'tag' doesn't exist' in /home/duyluong/public_html/cms/libs/Model.php:178
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(178): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(174): Model->fetchRow('SELECT `id` FRO...')
+#2 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(131): ArticleModel->getIDTag('javascript')
+#3 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(50): ArticleModel->saveItem(Array, Array)
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->formAction()
+#5 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#6 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#7 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 178
+[07-Jun-2018 03:58:40 America/Los_Angeles] PHP Notice:  Undefined index: id in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 132
+[07-Jun-2018 04:00:59 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 04:10:55 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 06:05:03 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 06:26:51 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 06:45:36 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 06:56:26 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 08:01:11 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 08:39:26 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 08:51:19 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 08:59:06 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php on line 31
+[07-Jun-2018 08:59:16 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 66
+[07-Jun-2018 09:00:16 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 09:48:32 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/duyluong/public_html/cms/libs/Model.php on line 134
+[07-Jun-2018 09:51:02 America/Los_Angeles] PHP Notice:  Undefined index: author in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 201
+[07-Jun-2018 09:51:02 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 202
+[07-Jun-2018 09:51:35 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 10:06:23 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `id` = '1000011'' at line 1' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(221): Model->execute('UPDATE `article...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(83): ArticleModel->ordering(Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->orderingAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[07-Jun-2018 11:06:30 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[07-Jun-2018 23:45:33 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 00:49:30 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 01:35:46 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ordering' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:155
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(155): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/CategoryArticleModel.php(20): Model->fetchAll('SELECT `id`, `n...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/CategoryArticleController.php(15): CategoryArticleModel->listItem(Array, NULL)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): CategoryArticleController->indexAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 155
+[08-Jun-2018 01:50:13 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 02:08:03 America/Los_Angeles] PHP Notice:  Undefined index: catecode in /home/duyluong/public_html/cms/application/module/admin/views/category-article/index.php on line 15
+[08-Jun-2018 02:08:03 America/Los_Angeles] PHP Notice:  Undefined index: show_on_fe in /home/duyluong/public_html/cms/application/module/admin/views/category-article/index.php on line 16
+[08-Jun-2018 02:08:03 America/Los_Angeles] PHP Notice:  Undefined index: show_on_footer in /home/duyluong/public_html/cms/application/module/admin/views/category-article/index.php on line 17
+[08-Jun-2018 02:08:03 America/Los_Angeles] PHP Notice:  Undefined index: meta_title in /home/duyluong/public_html/cms/application/module/admin/views/category-article/index.php on line 18
+[08-Jun-2018 02:08:03 America/Los_Angeles] PHP Notice:  Undefined index: meta_description in /home/duyluong/public_html/cms/application/module/admin/views/category-article/index.php on line 19
+[08-Jun-2018 02:08:03 America/Los_Angeles] PHP Notice:  Undefined index: catecode in /home/duyluong/public_html/cms/application/module/admin/views/category-article/index.php on line 15
+[08-Jun-2018 02:08:03 America/Los_Angeles] PHP Notice:  Undefined index: show_on_fe in /home/duyluong/public_html/cms/application/module/admin/views/category-article/index.php on line 16
+[08-Jun-2018 02:08:03 America/Los_Angeles] PHP Notice:  Undefined index: show_on_footer in /home/duyluong/public_html/cms/application/module/admin/views/category-article/index.php on line 17
+[08-Jun-2018 02:08:03 America/Los_Angeles] PHP Notice:  Undefined index: meta_title in /home/duyluong/public_html/cms/application/module/admin/views/category-article/index.php on line 18
+[08-Jun-2018 02:08:03 America/Los_Angeles] PHP Notice:  Undefined index: meta_description in /home/duyluong/public_html/cms/application/module/admin/views/category-article/index.php on line 19
+[08-Jun-2018 02:24:35 America/Los_Angeles] PHP Notice:  Array to string conversion in /home/duyluong/public_html/cms/libs/extends/Upload.php on line 22
+[08-Jun-2018 02:24:35 America/Los_Angeles] PHP Notice:  Array to string conversion in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 181
+[08-Jun-2018 02:39:21 America/Los_Angeles] PHP Notice:  Undefined index: article_id in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 187
+[08-Jun-2018 02:40:22 America/Los_Angeles] PHP Notice:  Undefined index: article_id in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 187
+[08-Jun-2018 02:40:48 America/Los_Angeles] PHP Notice:  Undefined index: article_id in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 187
+[08-Jun-2018 02:41:08 America/Los_Angeles] PHP Notice:  Undefined variable: catecode in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 190
+[08-Jun-2018 04:51:15 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 05:06:22 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 05:06:53 America/Los_Angeles] PHP Notice:  Array to string conversion in /home/duyluong/public_html/cms/libs/extends/Upload.php on line 22
+[08-Jun-2018 05:06:53 America/Los_Angeles] PHP Notice:  Array to string conversion in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 192
+[08-Jun-2018 05:07:37 America/Los_Angeles] PHP Notice:  Undefined variable: uploadObj in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 140
+[08-Jun-2018 05:07:37 America/Los_Angeles] PHP Fatal error:  Call to a member function removeFile() on null in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 140
+[08-Jun-2018 05:11:16 America/Los_Angeles] PHP Notice:  Undefined index: author in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 179
+[08-Jun-2018 05:11:16 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 180
+[08-Jun-2018 06:43:05 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 07:01:39 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/the-thao/post1-1000013.html,`update_time` = '2018-06-08 07:06:39' WHERE `id` = ' at line 1' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(117): Model->execute('UPDATE `article...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(62): ArticleModel->changeStatus(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->ajaxStatusAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 07:01:41 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/the-thao/post1-1000013.html,`update_time` = '2018-06-08 07:06:41' WHERE `id` = ' at line 1' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(117): Model->execute('UPDATE `article...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(62): ArticleModel->changeStatus(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->ajaxStatusAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 07:01:42 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/the-thao/post1-1000013.html,`update_time` = '2018-06-08 07:06:42' WHERE `id` = ' at line 1' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(117): Model->execute('UPDATE `article...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(62): ArticleModel->changeStatus(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->ajaxStatusAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 07:01:42 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/the-thao/post1-1000013.html,`update_time` = '2018-06-08 07:06:42' WHERE `id` = ' at line 1' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(117): Model->execute('UPDATE `article...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(62): ArticleModel->changeStatus(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->ajaxStatusAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 07:01:42 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/the-thao/post1-1000013.html,`update_time` = '2018-06-08 07:06:42' WHERE `id` = ' at line 1' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(117): Model->execute('UPDATE `article...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(62): ArticleModel->changeStatus(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->ajaxStatusAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 07:01:42 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/the-thao/post1-1000013.html,`update_time` = '2018-06-08 07:06:42' WHERE `id` = ' at line 1' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(117): Model->execute('UPDATE `article...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(62): ArticleModel->changeStatus(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->ajaxStatusAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 07:01:42 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/the-thao/post1-1000013.html,`update_time` = '2018-06-08 07:06:42' WHERE `id` = ' at line 1' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(117): Model->execute('UPDATE `article...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(62): ArticleModel->changeStatus(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->ajaxStatusAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 07:01:43 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/the-thao/post1-1000013.html,`update_time` = '2018-06-08 07:06:43' WHERE `id` = ' at line 1' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(117): Model->execute('UPDATE `article...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(62): ArticleModel->changeStatus(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->ajaxStatusAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 07:01:44 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/the-thao/post1-1000013.html,`update_time` = '2018-06-08 07:06:44' WHERE `id` = ' at line 1' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(117): Model->execute('UPDATE `article...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(62): ArticleModel->changeStatus(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->ajaxStatusAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 07:03:26 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/the-thao/post1-1000013.html,`update_time` = '2018-06-08 07:06:26' WHERE `id` = ' at line 1' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php(117): Model->execute('UPDATE `article...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/ArticleController.php(62): ArticleModel->changeStatus(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ArticleController->ajaxStatusAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 07:56:08 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 07:56:33 America/Los_Angeles] PHP Notice:  Undefined index: catecode in /home/duyluong/public_html/cms/application/module/admin/models/CategoryArticleModel.php on line 124
+[08-Jun-2018 07:56:33 America/Los_Angeles] PHP Notice:  Array to string conversion in /home/duyluong/public_html/cms/application/module/admin/models/CategoryArticleModel.php on line 125
+[08-Jun-2018 07:56:33 America/Los_Angeles] PHP Notice:  Undefined variable: query in /home/duyluong/public_html/cms/application/module/admin/models/CategoryArticleModel.php on line 126
+[08-Jun-2018 07:56:33 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/CategoryArticleModel.php(126): Model->execute(NULL)
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/CategoryArticleController.php(46): CategoryArticleModel->saveItem(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): CategoryArticleController->formAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 07:57:29 America/Los_Angeles] PHP Notice:  Array to string conversion in /home/duyluong/public_html/cms/application/module/admin/models/CategoryArticleModel.php on line 125
+[08-Jun-2018 07:57:29 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/tin-tuc/) WHERE `category_orginal` = 12' at line 1' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/CategoryArticleModel.php(126): Model->execute('UPDATE `article...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/CategoryArticleController.php(46): CategoryArticleModel->saveItem(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): CategoryArticleController->formAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 07:57:44 America/Los_Angeles] PHP Notice:  Array to string conversion in /home/duyluong/public_html/cms/application/module/admin/models/CategoryArticleModel.php on line 123
+[08-Jun-2018 07:57:44 America/Los_Angeles] PHP Notice:  Array to string conversion in /home/duyluong/public_html/cms/application/module/admin/models/CategoryArticleModel.php on line 125
+[08-Jun-2018 07:57:44 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/tin-tuc/) WHERE `category_orginal` = 12' at line 1' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/CategoryArticleModel.php(126): Model->execute('UPDATE `article...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/CategoryArticleController.php(46): CategoryArticleModel->saveItem(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): CategoryArticleController->formAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 07:58:22 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '/tin-tuc/) WHERE `category_orginal` = 12' at line 1' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/application/module/admin/models/CategoryArticleModel.php(126): Model->execute('UPDATE `article...')
+#2 /home/duyluong/public_html/cms/application/module/admin/controllers/CategoryArticleController.php(46): CategoryArticleModel->saveItem(Array, Array)
+#3 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): CategoryArticleController->formAction()
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#5 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#6 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 08:33:24 America/Los_Angeles] PHP Notice:  Undefined index: meta_title in /home/duyluong/public_html/cms/application/module/admin/views/category-product/index.php on line 21
+[08-Jun-2018 08:33:24 America/Los_Angeles] PHP Notice:  Undefined index: meta_description in /home/duyluong/public_html/cms/application/module/admin/views/category-product/index.php on line 22
+[08-Jun-2018 08:33:24 America/Los_Angeles] PHP Notice:  Undefined index: meta_title in /home/duyluong/public_html/cms/application/module/admin/views/category-product/index.php on line 21
+[08-Jun-2018 08:33:24 America/Los_Angeles] PHP Notice:  Undefined index: meta_description in /home/duyluong/public_html/cms/application/module/admin/views/category-product/index.php on line 22
+[08-Jun-2018 08:33:24 America/Los_Angeles] PHP Notice:  Undefined index: meta_title in /home/duyluong/public_html/cms/application/module/admin/views/category-product/index.php on line 21
+[08-Jun-2018 08:33:24 America/Los_Angeles] PHP Notice:  Undefined index: meta_description in /home/duyluong/public_html/cms/application/module/admin/views/category-product/index.php on line 22
+[08-Jun-2018 08:33:24 America/Los_Angeles] PHP Notice:  Undefined index: meta_title in /home/duyluong/public_html/cms/application/module/admin/views/category-product/index.php on line 21
+[08-Jun-2018 08:33:24 America/Los_Angeles] PHP Notice:  Undefined index: meta_description in /home/duyluong/public_html/cms/application/module/admin/views/category-product/index.php on line 22
+[08-Jun-2018 08:57:29 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 08:59:29 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'creation_time' in 'field list'' in /home/duyluong/public_html/cms/libs/Model.php:51
+Stack trace:
+#0 /home/duyluong/public_html/cms/libs/Model.php(51): PDOStatement->execute()
+#1 /home/duyluong/public_html/cms/libs/Model.php(61): Model->execute('INSERT INTO `ob...')
+#2 /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php(179): Model->insert(Array, 'single', 'object_product')
+#3 /home/duyluong/public_html/cms/application/module/admin/controllers/ProductController.php(54): ProductModel->saveItem(Array, Array)
+#4 /home/duyluong/public_html/cms/libs/Bootstrap.php(38): ProductController->formAction()
+#5 /home/duyluong/public_html/cms/libs/Bootstrap.php(15): Bootstrap->callMethod()
+#6 /home/duyluong/public_html/cms/index.php(12): Bootstrap->init()
+#7 {main}
+  thrown in /home/duyluong/public_html/cms/libs/Model.php on line 51
+[08-Jun-2018 09:58:01 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 10:14:35 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 10:29:09 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/duyluong/public_html/cms/application/module/admin/views/article/index.php on line 23
+[08-Jun-2018 10:29:33 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/duyluong/public_html/cms/application/module/admin/views/article/index.php on line 23
+[08-Jun-2018 10:29:46 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/duyluong/public_html/cms/application/module/admin/views/article/index.php on line 23
+[08-Jun-2018 10:29:59 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/duyluong/public_html/cms/application/module/admin/views/article/index.php on line 23
+[08-Jun-2018 10:30:20 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/duyluong/public_html/cms/application/module/admin/views/article/index.php on line 23
+[08-Jun-2018 11:03:10 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 11:03:21 America/Los_Angeles] PHP Warning:  Missing argument 7 for Helper::cmsRowAttributeForm(), called in /home/duyluong/public_html/cms/application/module/admin/views/product/form.php on line 74 and defined in /home/duyluong/public_html/cms/libs/Helper.php on line 107
+[08-Jun-2018 11:28:58 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 11:32:54 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 20:38:07 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 20:59:56 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 21:00:14 America/Los_Angeles] PHP Notice:  Array to string conversion in /home/duyluong/public_html/cms/libs/extends/Upload.php on line 22
+[08-Jun-2018 21:00:14 America/Los_Angeles] PHP Notice:  Array to string conversion in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 227
+[08-Jun-2018 21:00:24 America/Los_Angeles] PHP Notice:  Array to string conversion in /home/duyluong/public_html/cms/libs/extends/Upload.php on line 22
+[08-Jun-2018 21:00:24 America/Los_Angeles] PHP Notice:  Array to string conversion in /home/duyluong/public_html/cms/application/module/admin/models/ArticleModel.php on line 227
+[08-Jun-2018 21:06:53 America/Los_Angeles] PHP Notice:  Undefined index: name in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 188
+[08-Jun-2018 21:06:53 America/Los_Angeles] PHP Notice:  Undefined index: value in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 189
+[08-Jun-2018 21:06:53 America/Los_Angeles] PHP Notice:  Undefined index: name in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 188
+[08-Jun-2018 21:06:53 America/Los_Angeles] PHP Notice:  Undefined index: value in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 189
+[08-Jun-2018 21:09:44 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT), expecting identifier (T_STRING) in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 190
+[08-Jun-2018 21:16:15 America/Los_Angeles] PHP Notice:  Undefined index: value in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 189
+[08-Jun-2018 21:16:15 America/Los_Angeles] PHP Notice:  Undefined index: name in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 188
+[08-Jun-2018 21:16:15 America/Los_Angeles] PHP Notice:  Undefined index: name in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 188
+[08-Jun-2018 21:16:15 America/Los_Angeles] PHP Notice:  Undefined index: value in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 189
+[08-Jun-2018 21:16:15 America/Los_Angeles] PHP Notice:  Undefined index: name in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 188
+[08-Jun-2018 21:16:15 America/Los_Angeles] PHP Notice:  Undefined index: value in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 189
+[08-Jun-2018 21:29:55 America/Los_Angeles] PHP Warning:  array_flip() expects parameter 1 to be array, string given in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 187
+[08-Jun-2018 21:29:55 America/Los_Angeles] PHP Warning:  array_intersect_key(): Argument #1 is not an array in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 187
+[08-Jun-2018 21:29:55 America/Los_Angeles] PHP Warning:  array_flip() expects parameter 1 to be array, string given in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 187
+[08-Jun-2018 21:29:55 America/Los_Angeles] PHP Warning:  array_intersect_key(): Argument #1 is not an array in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 187
+[08-Jun-2018 21:33:53 America/Los_Angeles] PHP Notice:  Undefined index: nanme in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 187
+[08-Jun-2018 21:33:53 America/Los_Angeles] PHP Warning:  array_flip() expects parameter 1 to be array, null given in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 187
+[08-Jun-2018 22:20:07 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '=', expecting variable (T_VARIABLE) or '$' in /home/duyluong/public_html/cms/application/module/admin/models/ProductModel.php on line 187
+[08-Jun-2018 22:20:39 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
+[08-Jun-2018 22:28:09 America/Los_Angeles] PHP Notice:  Undefined variable: strPrivilegeID in /home/duyluong/public_html/cms/application/module/admin/models/IndexModel.php on line 21
